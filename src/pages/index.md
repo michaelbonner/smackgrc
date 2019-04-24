@@ -1,21 +1,15 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Powerful, easy to use solutions
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Powerful, easy to use solutions
+subheading: For all your governance, risk and compliance needs
 mainpitch:
-  title: Why Kaldi
+  title: Why SMACK
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque fringilla nibh at scelerisque. Praesent efficitur erat sem, in pulvinar massa pulvinar sit amet. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et tempor nulla, eu porta nibh. Nam consectetur, neque quis tincidunt euismod, nulla sapien mollis diam, vel posuere ligula elit vitae quam. Cras sodales magna consectetur, interdum augue sit amet, viverra libero. Sed sollicitudin nibh ac est pretium ultrices. Nulla faucibus posuere elit, quis interdum leo rutrum ac. Fusce consequat pellentesque neque, ut maximus mauris malesuada at. Donec laoreet porta est, eu rhoncus purus imperdiet eget.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Fusce neque libero, molestie id dolor sed, aliquam varius nibh. Pellentesque pharetra et est quis consectetur. Nunc mattis nisi non purus hendrerit posuere. Praesent volutpat scelerisque erat vitae pellentesque. Vivamus vel diam eget enim ultricies finibus ac at nisl. Morbi dictum consequat lacus, a egestas tellus sodales et. Etiam consequat purus condimentum, porttitor massa vitae, molestie arcu. Vestibulum leo orci, mollis eget quam sit amet, aliquam vehicula dolor.
 intro:
   blurbs:
     - image: /img/coffee.png
