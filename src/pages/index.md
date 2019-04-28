@@ -73,12 +73,12 @@ main:
     optimal for the plants, farmers and the local environment.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/patrick-t-kindt-1536513-unsplash.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/zachary-kyra-derksen-1535379-unsplash.jpg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: SMACK in the city
+    image: /img/bassem-abdelsayed-1533376-unsplash.jpg
 ---
 
