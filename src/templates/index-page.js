@@ -6,8 +6,6 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
-import smack from '../img/smack-grc-being-used.jpg'
-
 export const IndexPageTemplate = ({
   image,
   title,
@@ -66,7 +64,6 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
-    <img src={smack} alt="Smack GRC being used" />
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
