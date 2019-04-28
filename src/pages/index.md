@@ -72,10 +72,10 @@ main:
     journey. We personally visit each farm to make sure the conditions are
     optimal for the plants, farmers and the local environment.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: Beautiful Mountains
     image: /img/patrick-t-kindt-1536513-unsplash.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
+    alt: Waterfall
     image: /img/zachary-kyra-derksen-1535379-unsplash.jpg
   image3:
     alt: SMACK in the city
