@@ -1,24 +1,43 @@
 ---
 templateKey: index-page
-title: Powerful, easy to use solutions
+title: 'Powerful, easy to use solutions'
 image: /img/home-jumbotron.jpg
-heading: Powerful, easy to use solutions
-subheading: For all your governance, risk and compliance needs
+heading: 'Powerful, easy to use solutions'
+subheading: 'For all your governance, risk and compliance needs'
 mainpitch:
   title: Why SMACK
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque fringilla nibh at scelerisque. Praesent efficitur erat sem, in pulvinar massa pulvinar sit amet. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et tempor nulla, eu porta nibh. Nam consectetur, neque quis tincidunt euismod, nulla sapien mollis diam, vel posuere ligula elit vitae quam. Cras sodales magna consectetur, interdum augue sit amet, viverra libero. Sed sollicitudin nibh ac est pretium ultrices. Nulla faucibus posuere elit, quis interdum leo rutrum ac. Fusce consequat pellentesque neque, ut maximus mauris malesuada at. Donec laoreet porta est, eu rhoncus purus imperdiet eget.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque
+    fringilla nibh at scelerisque. Praesent efficitur erat sem, in pulvinar
+    massa pulvinar sit amet. Suspendisse potenti. Pellentesque habitant morbi
+    tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et
+    tempor nulla, eu porta nibh. Nam consectetur, neque quis tincidunt euismod,
+    nulla sapien mollis diam, vel posuere ligula elit vitae quam. Cras sodales
+    magna consectetur, interdum augue sit amet, viverra libero. Sed sollicitudin
+    nibh ac est pretium ultrices. Nulla faucibus posuere elit, quis interdum leo
+    rutrum ac. Fusce consequat pellentesque neque, ut maximus mauris malesuada
+    at. Donec laoreet porta est, eu rhoncus purus imperdiet eget.
 description: >-
-  Fusce neque libero, molestie id dolor sed, aliquam varius nibh. Pellentesque pharetra et est quis consectetur. Nunc mattis nisi non purus hendrerit posuere. Praesent volutpat scelerisque erat vitae pellentesque. Vivamus vel diam eget enim ultricies finibus ac at nisl. Morbi dictum consequat lacus, a egestas tellus sodales et. Etiam consequat purus condimentum, porttitor massa vitae, molestie arcu. Vestibulum leo orci, mollis eget quam sit amet, aliquam vehicula dolor.
+  Fusce neque libero, molestie id dolor sed, aliquam varius nibh. Pellentesque
+  pharetra et est quis consectetur. Nunc mattis nisi non purus hendrerit
+  posuere. Praesent volutpat scelerisque erat vitae pellentesque. Vivamus vel
+  diam eget enim ultricies finibus ac at nisl. Morbi dictum consequat lacus, a
+  egestas tellus sodales et. Etiam consequat purus condimentum, porttitor massa
+  vitae, molestie arcu. Vestibulum leo orci, mollis eget quam sit amet, aliquam
+  vehicula dolor.
 intro:
   blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+    - image: /img/undraw_decide_3iwx.svg
+      text: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque
+        fringilla nibh at scelerisque. Praesent efficitur erat sem, in pulvinar
+        massa pulvinar sit amet. Suspendisse potenti. Pellentesque habitant
+        morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        Aliquam et tempor nulla, eu porta nibh. Nam consectetur, neque quis
+        tincidunt euismod, nulla sapien mollis diam, vel posuere ligula elit
+        vitae quam. Cras sodales magna consectetur, interdum augue sit amet,
+        viverra libero. Sed sollicitudin nibh ac est pretium ultrices. Nulla
+        faucibus posuere elit, quis interdum leo rutrum ac.
     - image: /img/coffee-gear.png
       text: >
         We offer a small, but carefully curated selection of brewing gear and
@@ -62,3 +81,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
