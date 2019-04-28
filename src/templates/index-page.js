@@ -6,6 +6,8 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
+import smack from '../img/smack-grc-being-used.jpg'
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -37,7 +39,7 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          className="font-bold text-2xl"
           style={{
             boxShadow:
               'rgb(255, 117, 0) 0.5rem 0px 0px, rgb(255, 117, 0) -0.5rem 0px 0px',
@@ -50,7 +52,7 @@ export const IndexPageTemplate = ({
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="font-bold text-lg"
           style={{
             boxShadow:
               'rgb(255, 117, 0) 0.5rem 0px 0px, rgb(255, 117, 0) -0.5rem 0px 0px',
@@ -64,6 +66,7 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
+    <img src={smack} alt="Smack GRC being used" />
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -80,7 +83,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="font-semibold is-size-2">
                       {heading}
                     </h3>
                     <p>{description}</p>
@@ -88,18 +91,18 @@ export const IndexPageTemplate = ({
                 </div>
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
-                  <div className="column is-12 has-text-centered">
+                  <div className="column is-12 text-center">
                     <Link className="btn" to="/products">
                       See all products
                     </Link>
                   </div>
                 </div>
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                  <h3 className="font-semibold is-size-2">
                     Latest stories
                   </h3>
                   <BlogRoll />
-                  <div className="column is-12 has-text-centered">
+                  <div className="column is-12 text-center">
                     <Link className="btn" to="/blog">
                       Read more
                     </Link>
