@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: 'Powerful, easy to use solutions'
+title: 'Powerful, easy to use solutionss'
 image: /img/smack-grc-being-used.jpg
 heading: 'Powerful, easy to use solutions'
 subheading: 'For all your governance, risk and compliance needs'
