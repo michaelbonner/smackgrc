@@ -22,7 +22,8 @@ export const IndexPageTemplate = ({
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`
+        backgroundAttachment: `fixed`,
+        backgroundSize: `contain`
       }}
     >
       <div
@@ -64,7 +65,7 @@ export const IndexPageTemplate = ({
       </div>
     </div>
     <section className="section section--gradient">
-      <div className="container">
+      <div className="container m-auto">
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
