@@ -34,14 +34,14 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar bg-yellow-500"
+        className="navbar bg-white-500"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container m-auto">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="SMACK GRC Logo">
-              <img src={logo} alt="SMACK GRC" style={{ width: '88px' }} />
+            <Link to="/" className="py-2" title="SMACK GRC Logo">
+              <img src={logo} alt="SMACK GRC" style={{ width: '188px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -59,19 +59,19 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start text-center">
-              <Link className="navbar-item" to="/about">
+              <Link className="p-4" to="/about">
                 Solutions
               </Link>
-              <Link className="navbar-item" to="/about">
+              <Link className="p-4" to="/about">
                 GRC Requirements
               </Link>
-              <Link className="navbar-item" to="/products">
+              <Link className="p-4" to="/products">
                 About
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className="p-4" to="/blog">
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact">
+              <Link className="p-4" to="/contact">
                 Schedule a Demo
               </Link>
             </div>
