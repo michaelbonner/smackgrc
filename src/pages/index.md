@@ -27,7 +27,7 @@ description: >-
   vehicula dolor.
 intro:
   blurbs:
-    - image: /img/undraw_decide_3iwx.svg
+    - image: /img/undraw_process_e90d.png
       text: >-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque
         fringilla nibh at scelerisque. Praesent efficitur erat sem, in pulvinar
@@ -38,20 +38,20 @@ intro:
         vitae quam. Cras sodales magna consectetur, interdum augue sit amet,
         viverra libero. Sed sollicitudin nibh ac est pretium ultrices. Nulla
         faucibus posuere elit, quis interdum leo rutrum ac.
-    - image: /img/undraw_pie_graph_x9dy.svg
+    - image: /img/undraw_pie_graph_x9dy.png
       text: >
         We offer a small, but carefully curated selection of brewing gear and
         tools for every taste and experience level. No matter if you roast your
         own beans or just bought your first french press, you’ll find a gadget
         to fall in love with in our shop.
-    - image: /img/undraw_process_e90d.svg
+    - image: /img/undraw_business_analytics_l92d.png
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
         fancy new Chemex but have no clue how to use it? Don't worry, we’re here
         to help. You can schedule a custom 1-on-1 consultation with our baristas
         to learn anything you want to know about coffee roasting and brewing.
         Email us or call the store for details.
-    - image: /img/undraw_professor_8lrt.svg
+    - image: /img/undraw_professor_8lrt.png
       text: >
         We believe that good coffee has the power to bring people together.
         That’s why we decided to turn a corner of our shop into a cozy meeting
