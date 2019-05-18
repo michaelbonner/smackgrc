@@ -7,8 +7,19 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    @apply text-grey-700;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu', sans-serif;
+}
+
+.angle-clip-top {
+    -webkit-clip-path: polygon(0 0,100% 10%,100% 100%,0 100%);
+    clip-path: polygon(0 0,100% 10%,100% 100%,0 100%);
+}
+
+.angle-clip-bottom {
+    -webkit-clip-path: polygon(0 0,100% 0,100% 90%,0 100%);
+    clip-path: polygon(0 0,100% 0,100% 90%,0 100%);
 }
