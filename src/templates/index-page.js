@@ -16,49 +16,18 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      className="mt-0 h-64"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-        backgroundSize: `contain`
-      }}
+      className="mt-0 mb-12 py-32 bg-white-100 angle-clip-bottom"
     >
       <div
-        style={{
-          display: "flex",
-          height: "150px",
-          lineHeight: "1",
-          justifyContent: "space-around",
-          alignItems: "left",
-          flexDirection: "column"
-        }}
+        className="container mx-auto text-center"
       >
         <h1
-          className="font-bold text-2xl"
-          style={{
-            boxShadow:
-              "rgb(255, 117, 0) 0.5rem 0px 0px, rgb(255, 117, 0) -0.5rem 0px 0px",
-            backgroundColor: "rgb(255, 117, 0)",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em"
-          }}
+          className="font-bold text-4xl"
         >
           {title}
         </h1>
         <h3
-          className="font-bold text-lg"
-          style={{
-            boxShadow:
-              "rgb(255, 117, 0) 0.5rem 0px 0px, rgb(255, 117, 0) -0.5rem 0px 0px",
-            backgroundColor: "rgb(255, 117, 0)",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em"
-          }}
+          className="font-bold text-xl"
         >
           {subheading}
         </h3>

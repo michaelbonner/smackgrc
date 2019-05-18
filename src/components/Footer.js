@@ -6,7 +6,7 @@ import logo from "../img/logo-light.svg";
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="py-6 bg-grey-500 text-white-500">
+      <footer className="py-12 mt-12 bg-grey-500 text-white-500 angle-clip-top">
         <div className="container m-auto flex">
           <div className="content text-center">
             <img
