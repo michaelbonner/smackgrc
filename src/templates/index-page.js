@@ -15,58 +15,41 @@ export const IndexPageTemplate = ({
   intro
 }) => (
   <div>
-    <div
-      className="mt-0 mb-12 py-64 angle-clip-bottom landing-page-main-bg"
-    >
-      <div
-        className="container mx-auto text-right"
-      >
-        <h1
-          className="font-bold text-4xl"
-        >
-          {title}
-        </h1>
-        <h3
-          className="font-bold text-xl"
-        >
-          {subheading}
-        </h3>
+    <div className="mt-0 mb-12 py-64 angle-clip-bottom landing-page-main-bg">
+      <div className="mx-auto text-center md:pl-64 md:mx-0">
+        <h1 className="font-bold text-4xl">{title}</h1>
+        <h3 className="font-bold text-xl">{subheading}</h3>
       </div>
     </div>
-    <section className="section section--gradient">
-      <div className="container m-auto">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="font-semibold is-size-2">{heading}</h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 text-center">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div className="container m-auto pb-12 flex">
+      <div className="md:w-1/2 content p-4">
+        <div>
+          <h2>{mainpitch.title}</h2>
+        </div>
+        <div>
+          <h3>{mainpitch.description}</h3>
         </div>
       </div>
-    </section>
+      <div className="md:w-1/2 content p-4">
+        {mainpitch.image}
+      </div>
+    </div>
+    <div className="bg-grey-100 pt-12 pb-32">
+      <div className="container mx-auto flex">
+        <div className="container mx-auto p-4 md:w-2/5">
+          <h3 className="font-semibold is-size-2">{heading}</h3>
+          <p>{description}</p>
+        </div>
+        <Features style={{marginTop: '-100px'}} gridItems={intro.blurbs} />
+      </div>
+    </div>
+    <div className="container mx-auto pt-24 pb-12">
+      <div className="text-center">
+        <Link className="py-2 px-4 text-xl border-grey-400 border uppercase" to="/products">
+          Request a demo
+        </Link>
+      </div>
+    </div>
   </div>
 );
 
@@ -127,6 +110,13 @@ export const pageQuery = graphql`
         mainpitch {
           title
           description
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         description
         intro {
