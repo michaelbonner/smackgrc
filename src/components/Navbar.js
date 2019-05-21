@@ -56,22 +56,22 @@ const Navbar = class extends React.Component {
           </div>
           <div
             id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
+            className={`flex items-center ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start text-center">
-              <Link className="p-4 font-semibold text-grey-600" to="/about">
+              <Link className="px-4 font-semibold text-grey-600" to="/about">
                 Solutions
               </Link>
-              <Link className="p-4 font-semibold text-grey-600" to="/about">
+              <Link className="px-4 font-semibold text-grey-600" to="/about">
                 GRC Requirements
               </Link>
-              <Link className="p-4 font-semibold text-grey-600" to="/products">
+              <Link className="px-4 font-semibold text-grey-600" to="/products">
                 About
               </Link>
-              <Link className="p-4 font-semibold text-grey-600" to="/blog">
+              <Link className="px-4 font-semibold text-grey-600" to="/blog">
                 Blog
               </Link>
-              <Link className="p-4 font-semibold text-grey-600" to="/contact">
+              <Link className="px-4 font-semibold text-grey-600" to="/contact">
                 Schedule a Demo
               </Link>
             </div>
