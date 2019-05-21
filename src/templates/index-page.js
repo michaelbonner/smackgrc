@@ -16,10 +16,10 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      className="mt-0 mb-12 py-32 bg-white-100 angle-clip-bottom"
+      className="mt-0 mb-12 py-64 angle-clip-bottom landing-page-main-bg"
     >
       <div
-        className="container mx-auto text-center"
+        className="container mx-auto text-right"
       >
         <h1
           className="font-bold text-4xl"

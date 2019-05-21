@@ -23,3 +23,33 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-clip-path: polygon(0 0,100% 0,100% 90%,0 100%);
     clip-path: polygon(0 0,100% 0,100% 90%,0 100%);
 }
+
+.content h1 {
+    @apply text-3xl mt-2 mb-4;
+}
+.content h2 {
+    @apply text-2xl mt-2 mb-2;
+}
+.content h3 {
+    @apply text-xl;
+}
+.content h3 {
+    @apply text-lg;
+}
+.content ul, .content ol {
+    @apply ml-3;
+}
+.content ul {
+    @apply list-inside list-disc;
+}
+.content ol {
+    @apply list-inside list-decimal;
+}
+.content p {
+    @apply my-2;
+}
+
+.landing-page-main-bg {
+    background-image: url("../img/landing-page-main-bg.jpg");
+    background-size: cover;
+}
