@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: 'Powerful, easy to use solutions'
+title: 'Powerful, extremely flexible'
 image: /img/smack-grc-being-used.jpg
-heading: 'Powerful, easy to use solutions'
-subheading: 'For all your governance, risk and compliance needs'
+heading: 'Powerful, extremely flexible Audit, Risk & Compliance software powered by Quick Base'
+subheading: 'Audit, Risk & Compliance software powered by Quick Base'
 mainpitch:
   title: Why SMACK
   description: >
