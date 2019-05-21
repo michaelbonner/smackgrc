@@ -17,7 +17,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div className="mt-0 mb-12 py-64 angle-clip-bottom landing-page-main-bg">
-      <div className="mx-auto text-center md:py-32 md:pl-64 md:mx-0">
+      <div className="mx-auto text-center md:py-32 md:mx-0">
         <h1 className="font-bold text-4xl">{title}</h1>
         <h3 className="font-bold text-xl">{subheading}</h3>
         <p className="p-8">
