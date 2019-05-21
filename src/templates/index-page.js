@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Features from "../components/Features";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const IndexPageTemplate = ({
   image,
@@ -16,13 +17,21 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div className="mt-0 mb-12 py-64 angle-clip-bottom landing-page-main-bg">
-      <div className="mx-auto text-center md:pl-64 md:mx-0">
+      <div className="mx-auto text-center md:py-32 md:pl-64 md:mx-0">
         <h1 className="font-bold text-4xl">{title}</h1>
         <h3 className="font-bold text-xl">{subheading}</h3>
+        <p className="p-8">
+          <Link className=" mx-2 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded uppercase" to="/products">
+            Features
+          </Link>
+          <Link className=" mx-2 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded uppercase" to="/products">
+            GRC/IRM Requirements
+          </Link>
+        </p>
       </div>
     </div>
-    <div className="container m-auto pb-12 flex">
-      <div className="md:w-1/2 content p-4">
+    <div className="container m-auto py-12 pb-32 flex">
+      <div className="md:w-2/3 content p-4">
         <div>
           <h2>{mainpitch.title}</h2>
         </div>
@@ -30,17 +39,23 @@ export const IndexPageTemplate = ({
           <h3>{mainpitch.description}</h3>
         </div>
       </div>
-      <div className="md:w-1/2 content p-4">
-        {mainpitch.image}
+      <div className="md:w-1/3 content p-4">
+        <div style={{
+          marginTop: '-59px'
+        }}>
+          <PreviewCompatibleImage imageInfo={mainpitch} />
+        </div>
       </div>
     </div>
-    <div className="bg-grey-100 pt-12 pb-32">
+    <div className="bg-grey-500 text-white-500 py-24">
       <div className="container mx-auto flex">
+        <div>
+          <Features gridItems={intro.blurbs} />
+        </div>
         <div className="container mx-auto p-4 md:w-2/5">
-          <h3 className="font-semibold is-size-2">{heading}</h3>
+          <h3 className="font-semibold text-2xl mb-4 text-yellow-500">{heading}</h3>
           <p>{description}</p>
         </div>
-        <Features style={{marginTop: '-100px'}} gridItems={intro.blurbs} />
       </div>
     </div>
     <div className="container mx-auto pt-24 pb-12">
@@ -112,7 +127,7 @@ export const pageQuery = graphql`
           description
           image {
             childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
+              fluid(maxWidth: 1000, quality: 80) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -128,6 +143,7 @@ export const pageQuery = graphql`
                 }
               }
             }
+            title
             text
           }
           heading
