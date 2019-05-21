@@ -13,7 +13,8 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  intro
+  intro,
+  demoCallout
 }) => (
   <div>
     <div className="mt-0 mb-12 py-64 angle-clip-bottom landing-page-main-bg">
@@ -39,7 +40,7 @@ export const IndexPageTemplate = ({
     <div className="container m-auto py-12 pb-32 flex">
       <div className="md:w-2/3 content p-4">
         <div>
-          <h2>{mainpitch.title}</h2>
+          <h2 className="after-border-grey">{mainpitch.title}</h2>
         </div>
         <div>
           <h3>{mainpitch.description}</h3>
@@ -56,26 +57,34 @@ export const IndexPageTemplate = ({
       </div>
     </div>
     <div className="bg-grey-500 text-white-500 py-24">
-      <div className="container mx-auto md:flex md:flex-row-reverse">
-        <div className="container mx-auto p-4 w-full md:w-2/5">
-          <h3 className="font-semibold text-2xl mb-4 text-yellow-500">
+      <div className="container mx-auto">
+        <div className="mx-auto max-w-3xl p-4">
+          <h3 className="font-semibold text-2xl mb-4 text-yellow-500 after-border-yellow">
             {heading}
           </h3>
           <p>{description}</p>
         </div>
-        <div className="w-full md:w-3/5">
+        <div className="max-w-5xl mx-auto">
           <Features gridItems={intro.blurbs} />
         </div>
       </div>
     </div>
     <div className="container mx-auto pt-24 pb-12">
       <div className="text-center">
-        <Link
-          className="py-2 px-4 text-xl border-grey-400 border uppercase"
-          to="/products"
-        >
-          Request a demo
-        </Link>
+        <h3 className="text-2xl uppercase after-border-grey mb-4 inline-block">
+          {demoCallout.title}
+        </h3>
+        <p className="my-2">
+          {demoCallout.text}
+        </p>
+        <p className="mt-12">
+          <Link
+            className="py-2 px-4 text-xl border-grey-400 border uppercase"
+            to="/contact"
+          >
+            {demoCallout.buttonText}
+          </Link>
+        </p>
       </div>
     </div>
   </div>
@@ -90,7 +99,8 @@ IndexPageTemplate.propTypes = {
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array
-  })
+  }),
+  demoCallout: PropTypes.object,
 };
 
 const IndexPage = ({ data }) => {
@@ -106,6 +116,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        demoCallout={frontmatter.demoCallout}
       />
     </Layout>
   );
@@ -161,6 +172,11 @@ export const pageQuery = graphql`
           }
           heading
           description
+        }
+        demoCallout {
+          title
+          text
+          buttonText
         }
       }
     }
