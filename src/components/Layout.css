@@ -4,52 +4,77 @@
 
 @tailwind utilities;
 
-
 body {
-    font-family: 'Lato', sans-serif;
-    @apply text-grey-700;
+  font-family: "Lato", sans-serif;
+  @apply text-grey-700;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Ubuntu', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
 }
 
 .angle-clip-top {
-    -webkit-clip-path: polygon(0 0,100% 10%,100% 100%,0 100%);
-    clip-path: polygon(0 0,100% 10%,100% 100%,0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
 }
 
 .angle-clip-bottom {
-    -webkit-clip-path: polygon(0 0,100% 0,100% 90%,0 100%);
-    clip-path: polygon(0 0,100% 0,100% 90%,0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
 .content h1 {
-    @apply text-3xl mt-2 mb-4;
+  @apply text-3xl mt-2 mb-4;
 }
 .content h2 {
-    @apply text-2xl mt-2 mb-2;
+  @apply text-2xl mt-2 mb-2;
 }
 .content h3 {
-    @apply text-xl;
+  @apply text-xl;
 }
 .content h3 {
-    @apply text-lg;
+  @apply text-lg;
 }
-.content ul, .content ol {
-    @apply ml-3;
+.content ul,
+.content ol {
+  @apply ml-3;
 }
 .content ul {
-    @apply list-inside list-disc;
+  @apply list-inside list-disc;
 }
 .content ol {
-    @apply list-inside list-decimal;
+  @apply list-inside list-decimal;
 }
 .content p {
-    @apply my-2;
+  @apply my-2;
 }
 
 .landing-page-main-bg {
-    background-image: url("../img/landing-page-main-bg.jpg");
-    background-size: cover;
+  background-image: url("../img/landing-page-main-bg.jpg");
+  background-size: cover;
+}
+
+.after-border-yellow,
+.after-border-grey {
+  position: relative;
+}
+.after-border-yellow:after,
+.after-border-grey:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 60%;
+  height: 2px;
+}
+.after-border-yellow:after {
+  @apply bg-yellow-500;
+}
+.after-border-grey:after {
+  @apply bg-grey-500;
 }

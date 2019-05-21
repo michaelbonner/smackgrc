@@ -6,39 +6,39 @@ import logo from "../img/logo-light.svg";
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="py-12 mt-12 bg-grey-500 text-white-500 angle-clip-top">
-        <div className="container m-auto flex">
+      <footer className="pt-12 mt-12 bg-grey-500 text-white-500 angle-clip-top">
+        <div className="container m-auto flex justify-between align-middle">
           <div className="content text-center">
             <img
               src={logo}
               alt="SMACK GRC"
-              style={{ width: "14em", height: "10em" }}
+              style={{ width: "14em", height: "6em" }}
             />
           </div>
-          <div className="ml-6">
+          <div className="ml-6 flex items-center">
             <div>
-              <Link to="/" className="text-white-500">
+              <Link to="/" className="text-white-500 px-4">
                 Home
               </Link>
             </div>
             <div>
-              <Link className="text-white-500" to="/about">
+              <Link className="text-white-500 px-4" to="/about">
                 About
               </Link>
             </div>
             <div>
-              <Link className="text-white-500" to="/products">
+              <Link className="text-white-500 px-4" to="/products">
                 Products
               </Link>
             </div>
             <div>
-              <Link className="text-white-500" to="/contact/examples">
+              <Link className="text-white-500 px-4" to="/contact/examples">
                 Form Examples
               </Link>
             </div>
             <div>
               <a
-                className="text-white-500"
+                className="text-white-500 px-4"
                 href="/admin/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -52,8 +52,8 @@ const Footer = class extends React.Component {
               </Link>
             </div>
           </div>
-        </div>
-        <div className="container m-auto flex">
+        
+        <div className="flex flex-wrap items-center">
           <a className="p-1" title="facebook" href="https://www.facebook.com/SMACKGRC">
             <svg
               role="img"
@@ -102,6 +102,7 @@ const Footer = class extends React.Component {
               <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
             </svg>
           </a>
+        </div>
         </div>
       </footer>
     );
