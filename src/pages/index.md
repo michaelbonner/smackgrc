@@ -30,14 +30,14 @@ intro:
     - image: /img/undraw_process_e90d.png
       title: 2-3 week implementation time
       text: >        
-        Upload your data quickly via MS Excel
-        Remote or on-site training and implementation services
-        Training offered at Park City, Utah and other locations globally as needed
+        Upload your data quickly via MS Excel.
+        Remote or on-site training and implementation services.
+        Training offered at Park City, Utah and other locations globally as needed.
     - image: /img/undraw_business_analytics_l92d.png
       title: No separate charges for individual modules
       text: >
 
-        Unlike our competitors, all modules are included in all plans
+        Unlike our competitors, all modules are included in all plans.
     - image: /img/undraw_pie_graph_x9dy.png
       title:  Powerful, dynamic multi-dimensional reporting 
       text: >
