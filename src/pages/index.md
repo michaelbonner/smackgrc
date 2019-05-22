@@ -27,7 +27,7 @@ description: >
   vehicula dolor.
 intro:
   blurbs:
-    - image: /img/undraw_process_e90d.png
+    - image: /img/undraw_professor_8lrt.png
       title: 2-3 week implementation time
       text: >        
         Upload your data quickly via MS Excel.
@@ -43,7 +43,7 @@ intro:
       text: >
 
         One of the best features of Quick Base is its powerful reporting. It is easy to create all types of reports, including, Kanban, Gantt, Calendar, Map, and Charts of many kinds.
-    - image: /img/undraw_professor_8lrt.png
+    - image: /img/undraw_process_e90d.png
       title: Fully customizable by you without the need of a developer
       text: >
         With Quick Base, you control everything from the look and feel to the functionality. The workflows, forms, fields, tables, reports, dashboards, and other app building blocks can be configured to match your unique  processes. You can even build your own apps from scratch with no need for coding or IT assistance. Custom app development has never been easier than with Quick Base.
