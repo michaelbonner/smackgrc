@@ -50,7 +50,7 @@ export const IndexPageTemplate = ({
         <PreviewCompatibleImage imageInfo={mainpitch} />
       </div>
     </div>
-    <div className="bg-grey-500 text-white-500 py-24">
+    <div className="bg-white-500 text-grey-600 py-24">
       <div className="container mx-auto">
         <div className="mx-auto max-w-3xl p-4 pb-24">
           <h3 className="font-semibold text-2xl mb-4 text-yellow-500 after-border-yellow">
