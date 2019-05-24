@@ -23,13 +23,13 @@ export const IndexPageTemplate = ({
         <h3 className="font-bold text-xl">{subheading}</h3>
         <p className="p-8">
           <Link
-            className=" mx-2 bg-transparent hover:bg-yellow-500 text-grey-700 font-semibold hover:text-white-500 py-2 px-4 border border-yellow-500 hover:border-transparent rounded-sm uppercase"
+            className="block md:inline-block m-2 bg-transparent hover:bg-yellow-500 text-grey-700 font-semibold hover:text-white-500 py-2 px-4 border border-yellow-500 hover:border-transparent rounded-sm uppercase"
             to="/products"
           >
             Features
           </Link>
           <Link
-            className=" mx-2 bg-transparent hover:bg-yellow-500 text-grey-700 font-semibold hover:text-white-500 py-2 px-4 border border-yellow-500 hover:border-transparent rounded-sm uppercase"
+            className="block md:inline-block m-2 bg-transparent hover:bg-yellow-500 text-grey-700 font-semibold hover:text-white-500 py-2 px-4 border border-yellow-500 hover:border-transparent rounded-sm uppercase"
             to="/products"
           >
             GRC/IRM Requirements
