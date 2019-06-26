@@ -23,8 +23,8 @@ const Footer = class extends React.Component {
             <Link className="text-white-500 px-4 block md:inline-block" to="/about">
               About
             </Link>
-            <Link className="text-white-500 px-4 block md:inline-block" to="/products">
-              Products
+            <Link className="text-white-500 px-4 block md:inline-block" to="/solutions">
+              Solutions
             </Link>
             <Link className="text-white-500 px-4 block md:inline-block" to="/contact/examples">
               Form Examples
