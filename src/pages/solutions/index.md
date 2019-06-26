@@ -6,21 +6,26 @@ heading: Solutions for GRC
 description: SMACKGRC provides solutions for all of your GRC needs
 intro:
   blurbs:
-    - text: >
-        - Configurable control notifications. You may not want to send control
+    - text: >-
+        * Configurable control notifications. You may not want to send control
         notifications to all users at the same frequency, or at all. Control
         Notifications are fully configurable for new, open and overdue
-        controls.  - Control Owners, Delegates and Assignees may receive
-        notification emails with links to complete their controls.  - Controls
-        may be assigned to anyone with an email address. They do not need to be
-        an application user, which saves the cost of user licenses.  - Powerful,
-        dynamic multi-dimensional reporting. Pre-built dashboards and reports,
-        see standing of controls by location, regulatory requirement, vendor
-        profile, system profile, OU profile, control domain, etc. Build you own
-        custom reports - Fully customizable. Each organization has different
-        needs when it comes to controls management. It is easy to add new
-        fields, add to or change the functionality according to your
-        organizations' needs
+        controls.  
+
+        * Control Owners, Delegates and Assignees may receive notification
+        emails with links to complete their controls.
+
+        * Controls may be assigned to anyone with an email address. They do not
+        need to be an application user, which saves the cost of user licenses.
+
+        * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
+        and reports, see standing of controls by location, regulatory
+        requirement, vendor profile, system profile, OU profile, control domain,
+        etc. Build you own custom reports
+
+        * Fully customizable. Each organization has different needs when it
+        comes to controls management. It is easy to add new fields, add to or
+        change the functionality according to your organizations' needs
       title: Controls Management
       image: /img/undraw_business_analytics_l92d.png
     - text: >
