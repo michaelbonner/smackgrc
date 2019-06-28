@@ -62,7 +62,7 @@ const Navbar = class extends React.Component {
               <Link className="px-4 font-semibold text-grey-600" to="/solutions">
                 Solutions
               </Link>
-              <Link className="px-4 font-semibold text-grey-600" to="/about">
+              <Link className="px-4 font-semibold text-grey-600" to="/requirements">
                 GRC Requirements
               </Link>
               <Link className="px-4 font-semibold text-grey-600" to="/about">
