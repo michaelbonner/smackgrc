@@ -3,147 +3,28 @@ templateKey: requirements-page
 title: SMACK GRC Requirements
 image: /img/jumbotron.jpg
 heading: Requirements for GRC
-description: SMACKGRC helps manage your businisess' requirements
+description: >-
+  No matter whether you are trying to achieve compliance with SOX, PCI DSS, NERC
+  CIP, Data Privacy Laws, NIST or any other standard, SMACK Powered by Quick
+  Base will meet your needs. 
 intro:
   blurbs:
-    - text: >-
-        * Configurable control notifications. You may not want to send control
-        notifications to all users at the same frequency, or at all. Control
-        Notifications are fully configurable for new, open and overdue controls.
-
-        * Control Owners, Delegates and Assignees may receive notification
-        emails with links to complete their controls.
-
-        * Controls may be assigned to anyone with an email address. They do not
-        need to be an application user, which saves the cost of user licenses.
-
-        * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
-        and reports, see standing of controls by location, regulatory
-        requirement, vendor profile, system profile, OU profile, control domain,
-        etc. Build you own custom reports
-
-        * Fully customizable. Each organization has different needs when it
-        comes to controls management. It is easy to add new fields, add to or
-        change the functionality according to your organizations' needs
-      title: Controls Management
+    - text: "* SOX has evolved over the last number of years as the regulators, businesses and auditors have matured. Never has it been more important to ensure that evidence for the operation of controls is clear. \r\n  Monitor your controls compliance real-time, so you do not have to wait and rely on the auditors alone to tell you whether or not you are compliant. \r\n  Use checklists within the controls management functionality to ensure that control operators are performing each essential part of key controls, especially \"review\" controls. \r\n  Manage and monitor remediation of failed controls real-time\r\n  Powerful, dynamic multi-dimensional reporting. Pre-built dashboards and reports, see standing of controls by location, regulatory requirement, vendor profile, system profile, OU profile, control domain, etc. Build you own custom reports\r\n  Fully customizable. Each organization has different needs when it comes to controls management. It is easy to add new fields, add to or change the functionality according to your organizations' needs"
+      title: 'Sarbanes Oxley, SOX'
       image: /img/undraw_business_analytics_l92d.png
-    - text: >-
-        * Track and manage your organizations' risks
-
-        * Use risk assessments for Projects, Audits, Controls, Observations and
-        Actions
-
-        * Powerful, dynamic multi-dimensional reporting. See potential risk
-        exposures in one convenient view via associations with Audits, Projects,
-        Controls, Controls Assessments, Observations and Actions. Build your own
-        custom reports
-
-        * Fully customizable. Each organization has different needs when it
-        comes to risk management. It is easy to add new fields, add to or change
-        the functionality according to your organizations' needs
-
-        * Risk Survey functionality
-
-        * Send a survey to risk owners to get their feedback on identified
-        risks, update risk scores, etc. (Functionality coming soon, or quickly
-        build your own)
-      title: Risk Management
+    - text: "* Data Privacy laws are becoming ever more complex as each jurisdiction puts their own version of data privacy laws and consequences for breaches in place. Just check out the latest Baker McKenzie 2018 Global Privacy Handbook which outlines requirements of laws in more than 50 countries, including GDPR, California state law, HIPAA, Privacy Shield, etc. \r\n  In order to avoid prosecution, fines and penalties, it is critical that controls are operating effectively to ensure that only those authorized are able to see personal data, sensitive personal data, employee personal data, data belonging to minors, etc. \r\n  It is also important to track the handling of any potential data privacy incidents and perform Privacy Impact Assessments as appropriate for system and process changes. (Functionality coming soon, or quickly build your own)\r\n  Powerful, dynamic multi-dimensional reporting. Pre-built dashboards and reports, see standing of controls by location, regulatory requirement, vendor profile, system profile, OU profile, control domain, etc. Build you own custom reports\r\n  Fully customizable. Each organization has different needs when it comes to controls management. It is easy to add new fields, add to or change the functionality according to your organizations' needs"
+      title: 'Data Privacy, GDPR, HIPAA'
       image: /img/undraw_business_analytics_l92d.png
-    - text: >-
-        * Task and Time management
-
-        * Assign users tasks and allocate time and easily see users availability
-        (or lack thereof) for additional audits or projects, see budget vs
-        actual including projects that
-
-        * Includes PBC functionality - send Prepared by Client requests to
-        anyone with an email address. They do not need to be a QB user. They can
-        upload requested files so they will be available to the whole
-        audit/project team.
-
-        * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
-        and reports. See Project status and findings by location, regulatory
-        requirement, vendor profile, system profile, OU profile, control domain,
-        etc. Build your own custom reports
-
-        * See projects on a Gantt chart, projects behind schedule, projects over
-        budget based on percentage complete
-
-        * Fully customizable. Each organization has different needs when it
-        comes to audit and project management. It is easy to add new fields, add
-        to or change the functionality according to your organizations' needs
-      title: Audit and Project Management
+    - text: "* PCI compliance is not easy to achieve with the breadth of more than 200 required controls. \r\n  Monitor your controls compliance real-time, so you do not have to wait and rely on the ISA or QSA assessors alone to tell you whether or not you are compliant. \r\n  Use checklists within the controls management functionality to ensure that control operators are performing each essential part of key controls\r\n  Additionally it is important to track the monitoring of POS devices for tampering. This can be a monumental task and difficult to manage, but can be monitored easily using SMACK and Quick Base (Functionality coming soon, or quickly build your own)\r\n  Powerful, dynamic multi-dimensional reporting. Pre-built dashboards and reports, see standing of controls by location, regulatory requirement, vendor profile, system profile, OU profile, control domain, etc. Build you own custom reports\r\n  Fully customizable. Each organization has different needs when it comes to controls management. It is easy to add new fields, add to or change the functionality according to your organizations' needs"
+      title: PCI DSS
       image: /img/undraw_business_analytics_l92d.png
-    - text: >-
-        * Assign actions to anyone with an email address. They do not need to be
-        a QB user.
-
-        * Configurable action notifications. You may not want to send action
-        notifications to all users at the same frequency, or at all. Action
-        notifications are fully configurable for new, open and overdue actions.
-
-        * Owners, Delegates and Assignees may receive notification emails with
-        links to complete their actions.
-
-        * Fully customizable. Each organization has different needs when it
-        comes to managing issues and actions. It is easy to add new fields, add
-        to or change the functionality according to your organizations' needs
-
-        * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
-        and reports. See Issues and Actions by location, regulatory requirement,
-        vendor profile, system profile, OU profile, control domain, etc. Build
-        your own custom reports.
-      title: Issue/Action Management
-      image: /img/undraw_business_analytics_l92d.png
-    - text: >-
-        * Assign Controls Assessments to anyone with an email address. They do
-        not need to be a QB user.
-
-        * Configurable notifications. You may not want to send notifications to
-        all users at the same frequency, or at all. Notifications are fully
-        configurable for new, open and overdue Controls Assessments.
-
-        * Owners, Delegates and Assignees may receive notification emails with
-        links to complete their assessments.
-
-        * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
-        and reports, see standing of controls by location, regulatory
-        requirement, vendor profile, system profile, OU profile, control domain,
-        etc. Build you own custom reports
-
-        * Fully customizable. Each organization has different needs when it
-        comes to controls management. It is easy to add new fields, add to or
-        change the functionality according to your organizations' needs
-      title: Controls Assessment Management
-      image: /img/undraw_business_analytics_l92d.png
-    - text: >-
-        * Send Vendor Control Assessments to anyone with an email address. They
-        do not need to be a QB user.
-
-        * Configurable notifications. You may not want to send notifications to
-        all users at the same frequency, or at all. Notifications are fully
-        configurable for new, open and overdue Controls Assessments.
-
-        * Owners, Delegates and Assignees may receive notification emails with
-        links to complete their assessments.
-
-        * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
-        and reports, see standing of controls by location, regulatory
-        requirement, vendor profile, system profile, OU profile, control domain,
-        etc. Build you own custom reports
-
-        * Fully customizable. Each organization has different needs when it
-        comes to vendor management. It is easy to add new fields, add to or
-        change the functionality according to your organizations' needs
-
-        * Track System and Vendor metadata including criticality, CIA
-        attributes, etc.
-      title: Vendor Management
+    - text: "* Keeping track of the existence and operation of cyber controls has never been more important. \r\n  Use the Controls Assessment functionality to gather information from 3rd parties and internal control owners alike to get an efficient view of the cyber security control environment. This entails setting up the assessment and then sending the assessment to the persons responsible for the operation of those controls. Upon completion the assessment can then be reviewed by internal cyber security personnel to gain any additional understanding required. \r\n  Powerful, dynamic multi-dimensional reporting. Pre-built dashboards and reports, see standing of controls by location, Cyber Control Area (NIST, ISO27k, etc.), regulatory requirement, vendor profile, system profile, OU profile, control domain, etc. Build you own custom reports\r\n  Fully customizable. Each organization has different needs when it comes to controls assessments. It is easy to add new fields, add to or change the functionality according to your organizations' needs"
+      title: '           Cyber Security, NIST Cyber Security Framework, NIST SP 800-53, ISO 27001, ISO 27002, etc.'
       image: /img/undraw_business_analytics_l92d.png
   heading: Requirements
   description: All modules included in all plans. No extra charge for additional modules
 main:
-  heading: Highly configurable and flexible requirements
+  heading: Highly configurable and flexible requirements solution
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque
     fringilla nibh at scelerisque. Praesent efficitur erat sem, in pulvinar
