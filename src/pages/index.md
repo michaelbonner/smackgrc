@@ -7,7 +7,7 @@ heading: >-
   Quick Base
 subheading: 'Audit, Risk & Compliance software powered by Quick Base'
 button:
-  - buttonLink: /features
+  - buttonLink: /solutions
     buttonText: Features
   - buttonLink: /requirements
     buttonText: GRC/IRC Requirements
