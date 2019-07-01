@@ -6,6 +6,8 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
+import professor from "../img/professor.svg";
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -18,23 +20,34 @@ export const IndexPageTemplate = ({
   demoCallout
 }) => (
   <div>
-    <div className="mt-0 mb-12 py-64 angle-clip-bottom landing-page-main-bg">
-      <div className="mx-auto text-center md:py-32 md:mx-0">
-        <h1 className="font-bold text-4xl">{title}</h1>
-        <h3 className="font-bold text-xl">{subheading}</h3>
-        <p className="p-8">
-          {button.map(({buttonText, buttonLink}) => {
-            return (
-              <Link
-                className="block md:inline-block m-2 bg-transparent hover:bg-yellow-500 text-grey-700 font-semibold hover:text-white-500 py-2 px-4 border border-yellow-500 hover:border-transparent rounded-sm uppercase"
-                to={`${buttonLink}`}
-                key={buttonText}
-              >
-                {buttonText}
-              </Link>
-            );
-          })}
-        </p>
+    <div className="mt-0 angle-clip-bottom bg-sea-400 text-white-100">
+      <div className="container py-12 m-auto flex flex-wrap">
+        <div className="mx-auto w-full md:w-1/2 md:mx-0">
+          <h1>
+            <span className="inline-block text-xl font-light pb-4">{title}</span><br />
+            <span className="inline-block text-4xl">{subheading}</span>
+          </h1>
+          <p className="py-8">
+            {button.map(({ buttonText, buttonLink }) => {
+              return (
+                <Link
+                  className="block md:inline-block mr-3 py-4 px-6 shadow-md rounded bg-white-100 hover:bg-sea-100 text-sea-700 font-semibold hover:text-sea-900"
+                  to={`${buttonLink}`}
+                  key={buttonText}
+                >
+                  {buttonText}
+                </Link>
+              );
+            })}
+          </p>
+        </div>
+        <div className="w-full md:w-1/2">
+          <img
+            src={professor}
+            alt="Business Governance"
+            className="relative z-10"
+          />
+        </div>
       </div>
     </div>
     <div className="container m-auto py-12 pb-32 flex">
