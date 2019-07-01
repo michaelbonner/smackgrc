@@ -11,6 +11,7 @@ export const IndexPageTemplate = ({
   title,
   heading,
   subheading,
+  button,
   mainpitch,
   description,
   intro,
@@ -86,6 +87,7 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
+  button: PropTypes.array,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
@@ -105,6 +107,7 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
+        button={frontmatter.button}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -138,6 +141,10 @@ export const pageQuery = graphql`
         }
         heading
         subheading
+        button {
+          buttonText
+          buttonLink
+        }
         mainpitch {
           title
           description
